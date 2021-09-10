@@ -13,7 +13,7 @@ double cube(double num){
 int main()
 {
 	printf(" Enter a Number to cube:");
-	printf(" Answer: %.2f", cube(2.5));
+	printf(" Answer: %.2f", cube(3.0));
 
 	return 0;
 }
