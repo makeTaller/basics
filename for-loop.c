@@ -6,16 +6,11 @@
 */
 int main()
 {
-	int i = 0;
 
-	while( i <= 5){
-				printf("%d\n", i);
-				i++;
-		}
+	int luckyNumbers[] = { 3,43,12,8,7,10};
 	int j;
-
-	for(j =1; j <= 20; j++){
-		printf("%d\n", j);
+	for(j =1; j <= 8; j++){
+		printf("%d\n", luckyNumbers[j]);
 	}
 			return 0;
 }
