@@ -23,7 +23,7 @@ int main()
 }
 	if(outOfGuesses ==1){
 		printf("Out of guesses");
-	}esle {
+	} else {
 		printf("You win!");
 	}
 			return 0;
